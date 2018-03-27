@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  <link href="Wheel_of_Fortune.css"  rel="stylesheet"></link>
+  <script src="Wheel_of_Fortune.js" charset="utf-8"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <title>Wheel of Fortune</title>
+  </head>
+  <body>
+
+    <div id="background">
+      <img src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/javaScript_Capstone/pictures/1.png" alt="">
+    </div>
+
+    <img src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/javaScript_Capstone/pictures/jade helm computer.png" alt="" style="position:  relative;top: -1276px;"></img>
+
+    <img id="globe" src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/javaScript_Capstone/pictures/globe-earth2.gif"></img>
+
+    <img id="fngrprnt" src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/javaScript_Capstone/pictures/fingerprint.gif"></img>
+
+    <img id="redDot" src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/javaScript_Capstone/pictures/redDot.gif"></img>
+
+    <img id="redDot2" src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/javaScript_Capstone/pictures/redDot.gif"></img>
+
+    <img id="redDot3" src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/javaScript_Capstone/pictures/redDot.gif"></img>
+
+
+    <div id="gameArea">
+      <div id="keyBoard">
+        <!-- <img src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/javaScript_Capstone/pictures/holoBoard.png" alt=""> -->
+      </div>
+      <div><input id="input" type="text" name="input"></input></div>
+      <button id="submit" type="button" onclick="Guess()">Guess!</button>
+      <div id="holoBack"> </div>
+      <div id="Screen"> </div>
+
+
+      <button id="hint">Hint</button>
+      <button id="reset">Play Again</button>
+      <p id="mylives"></p>
+      <p id="timer">Beat the Clock!</p>
+      <progress value="0" max="10" id="progressBar"></progress>
+      <p id="clue">Clue: </p>
+      <div id="hold"></div>
+      <div id="buttons" style="position: absolute;top: 70px;left: 29px;color:white;"></div>
+      <div id="Time" style="visibility: hidden">You Lose!</div>
+      <div id="Time2"style="visibility: hidden">You Win!</div>
+
+    </div>
+  </body>
+</html>
