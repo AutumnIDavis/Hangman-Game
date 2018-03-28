@@ -30,9 +30,11 @@ window.onload = function x() {
   var showTimer = document.getElementById("timer");
   var showTime = document.getElementById("Time");
   var showTime2 = document.getElementById("Time2");
+  var countDown = document.getElementById("countDown");
+  var tick = document.getElementById("tickTock")
 
-
-
+tick.play();
+// setTimeout("countDown.play()",10000);
 
   // create alphabet ul
   var buttons = function () {
@@ -128,6 +130,9 @@ window.onload = function x() {
   ["BATMAN", "NIGHTWING", "TIM-DRAKE", "THE-FLASH", "BUMBLEBEE", "DEATHSTROKE", "WONDER-WOMAN", "STARFIRE", "BEAST-BOY", "SUPERMAN", "CYBORG", "WALLY-WEST", "RED-TORNADO", "SCARECROW", "AMANDA-WALLER", "GREEN-LANTERN", "THE-JOKER", "JIMMY-OLSEN", "BOOSTER-GOLD","CAPTAIN-BOOMERANG", "GORILLA-GRODD"]
     ];
 
+
+
+
     chosenCategory = categories[Math.floor(Math.random() * categories.length)];
     word = chosenCategory[Math.floor(Math.random() * chosenCategory.length)];
     word = word.replace(/\s/g, "-");
@@ -183,14 +188,8 @@ window.onload = function x() {
         if(timeleft <= 0){
           clearInterval(downloadTimer);
           showTimer.innerHTML = "Time's Up!";
-
         }
       },2000);
-
-
       play();
   }
-
-
-
 }
