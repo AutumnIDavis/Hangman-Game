@@ -34,7 +34,7 @@ window.onload = function x() {
   var tick = document.getElementById("tickTock")
 
 tick.play();
-// setTimeout("countDown.play()",10000);
+setTimeout("countDown.play()",10000);
 
   // create alphabet ul
   var buttons = function () {
@@ -147,9 +147,9 @@ tick.play();
     comments();
     selectCat();
 
-    var timeleft = 10;
+    var timeleft = 15;
     var downloadTimer = setInterval(function(){
-      document.getElementById("progressBar").value = 10 - --timeleft;
+      document.getElementById("progressBar").value = 15 - --timeleft;
       if(timeleft <= 0){
         clearInterval(downloadTimer);
         showTimer.innerHTML = "Time's Up!";
@@ -180,11 +180,11 @@ tick.play();
       correct.parentNode.removeChild(correct);
       letters.parentNode.removeChild(letters);
       showClue.innerHTML = "";
-  window.location.reload(true);
+  // window.location.reload(true);
 
-      var timeleft = 10;
+      var timeleft = 15;
       var downloadTimer = setInterval(function(){
-        document.getElementById("progressBar").value = 10 - --timeleft;
+        document.getElementById("progressBar").value = 15 - --timeleft;
         if(timeleft <= 0){
           clearInterval(downloadTimer);
           showTimer.innerHTML = "Time's Up!";

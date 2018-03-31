@@ -1,0 +1,304 @@
+/* Large devices (large desktops, 1200px and up) */
+@media all and (max-width: 1599px){
+
+    html{
+      width: 47%;
+      font-family: 'VT323', monospace;
+    }
+
+    img {
+        vertical-align: middle;
+        border-style: none;
+        width: 214%;
+    }
+
+    #timer{
+      display: inline-block;
+      position: relative;
+      top: -1750px;
+      left: 86px;
+      background-color: white;
+      opacity: 0.7;
+      width: 40%;
+      font-size: 21px;
+      padding: 0% 6% 4% 6%;
+      text-align: center;
+      font-family: 'VT323', monospace;
+    }
+
+    #background{
+      position: relative;
+      left: -8px;
+      z-index: -1;
+      width:100%;
+    }
+
+    #backGround{
+      position: relative;
+      top: -793px;
+      width: 213%;
+      display: inline-block;
+    }
+
+    #alphabet li{
+      color: white;
+      display: inline;
+      list-style: none;
+      padding: 15px;
+      /* border: 1px solid black; */
+      background-color: rgba(0,255,127,0.05);
+      margin: 1px;
+      font-family: 'VT323', monospace;
+    }
+
+    #alphabet{
+      position: relative;
+      top: -796px;
+      left: 149%;
+      width: 78%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-shadow: -4px 4px 6px black;
+      background-color: rgba(158,216,255,0.5);
+      padding: 0px;
+      border: 2px solid black;
+      font-family: 'VT323', monospace;
+      font-size: 14px;
+    }
+
+    #gameArea{
+      position: absolute;
+      top: 1563px;
+      left: 377px;
+      WIDTH: 47%;
+      margin: -40%;
+    }
+
+    #holoBack{
+      position: relative;
+      top: -1163px;
+      left: 71.7%;
+      background-color: white;
+      opacity: 0.4;
+      width: 73%;
+      padding: 23% 7%;
+      border: 4px solid black;
+    }
+
+    #Screen{
+      display: inline-block;
+      position: relative;
+      top: -1399px;
+      left: 148%;
+      background-color: white;
+      opacity: 0.7;
+      width: 70%;
+      padding: 36% 0;
+      border: 2px solid black;
+    }
+
+    #Time{
+      vertical-align: baseline;
+      top: -1828px;
+      left: 389px;
+      position: relative;
+      color: #03030b;
+      font-size: 91px;
+      font-family: 'VT323', monospace;
+    }
+
+    #Time2{
+      vertical-align: baseline;
+      top: -1961px;
+      left: 389px;
+      position: relative;
+      color: #03030b;
+      font-size: 91px;
+      font-family: 'VT323', monospace;
+    }
+
+    #fngrprnt{
+      position: relative;
+      top: -1140px;
+      width: 8%;
+      left: 164px;
+      opacity: 0.4;
+    }
+
+    .dots{
+      position: relative;
+      top: -1230px;
+      left: 530px;
+    }
+
+    #redDot{
+      position: relative;
+      top: -14px;
+      width: 3%;
+      left: 50px;
+      opacity: 0.5;
+      z-index: 1;
+    }
+
+    #redDot2{
+      position: relative;
+      top: -36px;
+      width: 3%;
+      left: 24px;
+      opacity: 0.5;
+      z-index: 1;
+    }
+
+
+    #redDot3{
+      position: relative;
+      top: -3px;
+      width: 3%;
+      left: -6px;
+      opacity: 0.5;
+      z-index: 1;
+    }
+
+    #progressBar{
+      vertical-align: baseline;
+      top: -1724px;
+      left: -99px;
+      position: relative;
+    }
+
+    #hint{
+      display: inline-block;
+      position: relative;
+      top: -1253px;
+      left: 6px;
+      background-color: white;
+      opacity: 0.7;
+      width: 19%;
+      /* padding: 0% 5% 8% 5%; */
+      text-align: center;
+      font-family: 'VT323', monospace;
+      font-size: 14px;
+    }
+
+    #clue{
+      display: inline-block;
+      position: relative;
+      top: -1397px;
+      left: 177px;
+      background-color: white;
+      width: 88%;
+      text-align: center;
+      opacity: 0.7;
+      font-family: 'VT323', monospace;
+    }
+
+    #hold{
+      position: absolute;
+      display: inline;
+      top: -970px;
+      left: 716px;
+      max-width: 30px;
+      text-align: center;
+      font-family: 'VT323', monospace;
+    }
+
+    #globe{
+      position: relative;
+      top: -1178px;
+      width: 44%;
+      left: 54px;
+      opacity: 0.5;
+    }
+
+    #hold li{
+      display: inline;
+      list-style: none;
+      padding: 15px;
+    }
+
+    #reset{
+      display: inline-block;
+      position: absolute;
+      top: -801px;
+      left: 850px;
+      background-color: white;
+      opacity: 0.7;
+      width: 19%;
+      /* padding: 0% 5% 8% 5%; */
+      text-align: center;
+    }
+
+    #mylives{
+      display: inline-block;
+      position: absolute;
+      top: -642px;
+      left: 344px;
+      opacity: 0.9;
+      color: white;
+      width: 24%;
+      text-align: center;
+      font-family: 'VT323', monospace;
+    }
+
+    .flex-container{
+      display: flex;
+      position: absolute;
+      top: -295px;
+      left: -140px;
+      background-color: rgba(250,250,250,0.5);
+    }
+
+    #keyBoard{
+      position: absolute;
+      top: -410px;
+      left: 755px;
+    }
+
+    #phase{
+      position: relative;
+      display: inline-block;
+      text-align: center;
+      top: -1720px;
+      left: -23.4%;
+      /* background-color: rgb(250, 250, 250,0.3); */
+    }
+
+    #input{
+      position: relative;
+      display: inline-block;
+      text-align: center;
+      top: -2116px;
+      left: 35.6%;
+      width: 39%;
+    }
+
+    #submit{
+      position: relative;
+      display: inline-block;
+      text-align: center;
+      top: -2147px;
+      left: 76%;
+      width: 5%;
+    }
+
+    button:hover{
+      background-color: lightpink;
+      opacity: 0.9;
+    }
+
+    button:active{
+      opacity: 1;
+      background-color: grey;
+    }
+
+
+    #Space{
+      position: absolute;
+      top: -335px;
+      left: 492px;
+      padding: 15px;
+      width: 16%;
+      opacity: 0.2;
+     }
+  }
